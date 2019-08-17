@@ -1,0 +1,31 @@
+start BOF procedures EOF
+BOF BOF
+procedures procedure procedures
+procedure INT ID LPAREN params RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+ID wain
+LPAREN (
+params dcl COMMA dcl
+dcl INT ID
+INT int
+ID a
+COMMA ,
+dcl INT ID
+INT int
+ID b
+RPAREN )
+LBRACE {
+dcls
+statements
+RETURN return
+expr term
+term factor
+factor pcall
+pcall ID LPAREN RPAREN
+ID getchar
+LPAREN (
+RPAREN )
+SEMI ;
+RBRACE }
+procedures
+EOF EOF

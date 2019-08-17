@@ -1,0 +1,11 @@
+int foo(int var) {
+  return 0-var;
+}
+
+int bar(int var) {
+  return var * 2;
+}
+
+int wain(int a, int b) {
+  return foo(a) - bar(b);
+}
